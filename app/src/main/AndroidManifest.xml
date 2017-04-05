@@ -42,7 +42,9 @@
 
         <provider
             android:authorities="com.example.linde.sunshine"
-            android:name=".WeatherProvider" />
+            android:name=".WeatherProvider"
+            android:enabled="true"
+            android:exported="true" />
 
     </application>
 
